@@ -6,7 +6,7 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 
 > Player 1, place your ships on the game field
 >
->| Name     | Character |
+>| 1 | 2 |
 >| ---      | ---       |
 >| Backtick | `         |
 >| Pipe     | \|        |
