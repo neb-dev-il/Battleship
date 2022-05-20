@@ -17,7 +17,7 @@ enum Mark {
     }
 
     /**
-     * This is the mark getter
+     * This is the MARK getter
      */
 
     char getMARK() {
