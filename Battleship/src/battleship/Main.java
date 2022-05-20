@@ -4,7 +4,6 @@ import java.util.Objects;
 import java.util.Scanner;
 
 enum Ship {
-
     AIRCRAFT_CARRIER_SIZE("Aircraft Carrier", 5),
     BATTLESHIP_SIZE("Battleship", 4),
     SUBMARINE_SIZE("Submarine", 3),
