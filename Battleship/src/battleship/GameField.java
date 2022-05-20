@@ -115,12 +115,8 @@ class GameField extends ShipPosition {
 
     void makeShot(int row, int column, char[][] battlefield) {
         switch (battlefield[row][column]) {
-            case 'O':
-                battlefield[row][column] = Mark.HIT.getMARK();
-                break;
-            case '~':
-                battlefield[row][column] = Mark.MISS.getMARK();
-                break;
+            case 'O' -> battlefield[row][column] = Mark.HIT.getMARK();
+            case '~' -> battlefield[row][column] = Mark.MISS.getMARK();
         }
     }
 
