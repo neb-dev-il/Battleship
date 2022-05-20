@@ -6,16 +6,9 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 
 > Player 1, place your ships on the game field
 
-| Name     | Character || Name     | Character || Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
+| FirstName     | LastName      | City     | FirstName     | LastName      | City |    
+| ------------- | ------------- | -------- | ------------- | ------------- | -----|
+| John          | Test1         | NewYork  |John          | Test1         | NewYo |
 
 
 
