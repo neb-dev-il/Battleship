@@ -9,7 +9,15 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 | FirstName     | LastName      | City     | FirstName     | LastName      | City |    
 | ------------- | ------------- | -------- | ------------- | ------------- | -----|
 | John          | Test1         | NewYork  |John          | Test1         | NewYo |
-
+| FirstName     | LastName      | City     | FirstName     | LastName      | City |    
+| ------------- | ------------- | -------- | ------------- | ------------- | -----|
+| John          | Test1         | NewYork  |John          | Test1         | NewYo |
+| FirstName     | LastName      | City     | FirstName     | LastName      | City |    
+| ------------- | ------------- | -------- | ------------- | ------------- | -----|
+| John          | Test1         | NewYork  |John          | Test1         | NewYo |
+| FirstName     | LastName      | City     | FirstName     | LastName      | City |    
+| ------------- | ------------- | -------- | ------------- | ------------- | -----|
+| John          | Test1         | NewYork  |John          | Test1         | NewYo |
 
 
 >
