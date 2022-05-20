@@ -1,6 +1,7 @@
 package battleship;
 
 enum Mark {
+    
     FOG_OF_WAR('~'),
     SHIP('O'),
     HIT('X'),
