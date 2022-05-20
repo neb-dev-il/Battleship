@@ -1,6 +1,7 @@
 package battleship;
 
 class Game {
+    
     private final Player PLAYER_1;
     private final Player PLAYER_2;
 
