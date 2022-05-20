@@ -18,7 +18,7 @@ H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-Enter the coordinates of the Aircraft Carrier (5 cells):
+> Enter the coordinates of the Aircraft Carrier (5 cells):
 
 ###### Input
 
@@ -38,7 +38,7 @@ H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 
-Enter the coordinates of the Battleship (4 cells):
+> Enter the coordinates of the Battleship (4 cells):
 
 ###### Input
 
