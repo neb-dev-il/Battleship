@@ -6,10 +6,10 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 
 > Player 1, place your ships on the game field
 >
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
+>| Name     | Character |
+>| ---      | ---       |
+>| Backtick | `         |
+>| Pipe     | \|        |
 >
 > Enter the coordinates of the Aircraft Carrier (5 cells):
 
