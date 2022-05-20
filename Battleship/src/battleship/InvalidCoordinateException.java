@@ -1,4 +1,7 @@
 package battleship;
 
-public class InvalidCoordinateException {
+class InvalidCoordinateException extends Exception {
+    InvalidCoordinateException(String message) {
+        super(message);
+    }
 }
