@@ -112,11 +112,11 @@ G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ O ~ ~ ~ ~ ~ ~ ~ ~
 J ~ O ~ ~ ~ ~ ~ O O O
-</pre>
->Press Enter and pass the move to another player
->...
->Player 2, place your ships to the game field
-<pre>
+
+Press Enter and pass the move to another player
+...
+Player 2, place your ships to the game field
+
   1 2 3 4 5 6 7 8 9 10
 A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -129,4 +129,3 @@ H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 </pre>
->Enter the coordinates of the Aircraft Carrier (5 cells):
