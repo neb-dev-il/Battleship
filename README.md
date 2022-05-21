@@ -5,8 +5,8 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 ###### Output
 
 >Player 1, place your ships on the game field
->
-> 1 2 3 4 5 6 7 8 9 10<br/>
+<pre>
+>  1 2 3 4 5 6 7 8 9 10<br/>
 >A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
 >B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
 >C ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
@@ -17,5 +17,5 @@ Both players add the ships to their fields one by one (no peeking!), and then st
 >H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
 >I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
 >J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~<br/>
->
+</pre>
 >Enter the coordinates of the Aircraft Carrier (5 cells):
