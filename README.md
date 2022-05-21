@@ -3,7 +3,6 @@
 Both players add the ships to their fields one by one (no peeking!), and then start shelling each other until one of them succeeds.
 
 ###### Output
-
 >Player 1, place your ships on the game field
 <pre>
   1 2 3 4 5 6 7 8 9 10
@@ -19,3 +18,5 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 </pre>
 >Enter the coordinates of the Aircraft Carrier (5 cells):
+###### Input
+>F3 F7
