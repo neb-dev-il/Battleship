@@ -129,3 +129,4 @@ H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 </pre>
+>Enter the coordinates of the Aircraft Carrier (5 cells):
