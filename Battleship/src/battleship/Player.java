@@ -6,44 +6,25 @@ import java.util.Scanner;
 class Player {
 
     private final static Scanner SCANNER = new Scanner(System.in);
-
     private final GameField BATTLESHIP;
     private int notSunkenOpponentShipsCells;
-
-    /**
-     * This is the Player constructor
-     */
 
     Player(GameField battleship) {
         this.BATTLESHIP = battleship;
     }
 
-    /**
-     * This is the BATTLESHIP getter
-     */
-
     GameField getBATTLESHIP() {
         return BATTLESHIP;
     }
-
-    /**
-     * This is the notSunkenOpponentShipsCells getter
-     */
 
     int getNotSunkenOpponentShipsCells() {
         return notSunkenOpponentShipsCells;
     }
 
-    /**
-     * This is the notSunkenOpponentShipsCells setter
-     */
-
     void setAllNotSunkenOpponentShipsCells() {
-
         for (Ship s : Ship.values()) {
             this.notSunkenOpponentShipsCells += s.getLENGTH();
         }
-
     }
 
     /**
@@ -51,11 +32,9 @@ class Player {
      */
 
     void reduceNotSunkenOpponentShipsCellsNumber(int row, int column, char[][] battlefield) {
-
         if (battlefield[row][column] == Mark.SHIP.getMARK()) {
             --this.notSunkenOpponentShipsCells;
         }
-
     }
 
     /**
@@ -71,10 +50,8 @@ class Player {
      */
 
     static void passMoveToAnotherPlayer() {
-
         String message = "Press Enter and pass the move to another player";
         System.out.println(message);
-
         try {
             while (System.in.read() != '\n') {
                 System.out.println(message);
@@ -82,7 +59,6 @@ class Player {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     /**
@@ -98,27 +74,21 @@ class Player {
      */
 
     void placeShips() {
-
         BATTLESHIP.denoteCell(Mark.FOG_OF_WAR.getMARK());
         BATTLESHIP.printCoveredField();
-
         for (Ship ship : Ship.values()) {
-
             System.out.printf("Enter the coordinates of the %s (%d cells):\n\n", ship.getNAME(), ship.getLENGTH());
             ShipCoordinate firstCoordinate = new ShipCoordinate();
             ShipCoordinate lastCoordinate = new ShipCoordinate();
             ShipPosition shipPosition = new ShipPosition(ship);
             boolean isCorrectShipPlace = false;
-
             while (!isCorrectShipPlace) {
-
                 String coordinateStringInput = SCANNER.nextLine();
                 ShipCoordinate.processUserInputToArrayOfCoordinates(coordinateStringInput);
                 firstCoordinate.setColumn(ShipCoordinate.getArrayOfCoordinates()[0]);
                 firstCoordinate.setRow(ShipCoordinate.getArrayOfCoordinates()[0]);
                 lastCoordinate.setColumn(ShipCoordinate.getArrayOfCoordinates()[1]);
                 lastCoordinate.setRow(ShipCoordinate.getArrayOfCoordinates()[1]);
-
                 try {
                     shipPosition.checkShipLocationCorrectness(firstCoordinate, lastCoordinate);
                     shipPosition.checkShipLengthCorrectness(firstCoordinate, lastCoordinate);
@@ -128,13 +98,10 @@ class Player {
                     System.out.println();
                     System.out.println(e.getMessage());
                 }
-
             }
-
             System.out.println();
             BATTLESHIP.denoteCell(Mark.SHIP.getMARK(), firstCoordinate, lastCoordinate);
             BATTLESHIP.printCoveredField();
-
         }
     }
 
@@ -143,9 +110,7 @@ class Player {
      */
 
     void shootTheEnemy(GameField opponentGameField, int playerNumber) {
-
         if (getNotSunkenOpponentShipsCells() != 0) {
-
             passMoveToAnotherPlayer();
             opponentGameField.printUncoveredField();
             BATTLESHIP.printCoveredField();
@@ -155,7 +120,6 @@ class Player {
             String coordinateStringInput = SCANNER.next();
             coordinate.setColumn(coordinateStringInput);
             coordinate.setRow(coordinateStringInput);
-
             try {
                 shipPosition.checkCoordinateCorrectness(coordinate);
                 reduceNotSunkenOpponentShipsCellsNumber(coordinate.getRow(), coordinate.getColumn(), opponentGameField.getBATTLEFIELD());
@@ -165,7 +129,6 @@ class Player {
                 System.out.println(e.getMessage());
                 System.out.println();
             }
-
         }
     }
 }

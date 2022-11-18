@@ -4,17 +4,9 @@ class ShipPosition extends Cell {
 
     private Ship ship;
 
-    /**
-     * This is ShipPosition constructor
-     */
-
     ShipPosition(Ship ship) {
         this.ship = ship;
     }
-
-    /**
-     * This is ShipPosition constructor
-     */
 
     ShipPosition() {
     }

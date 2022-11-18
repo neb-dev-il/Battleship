@@ -9,17 +9,9 @@ enum Mark {
 
     private final char MARK;
 
-    /**
-     * This is the Mark enumeration constructor
-     */
-
     Mark(char mark) {
         this.MARK = mark;
     }
-
-    /**
-     * This is the MARK getter
-     */
 
     char getMARK() {
         return MARK;

@@ -4,12 +4,7 @@ class GameField extends ShipPosition {
 
     final private static int ROWS = 10;
     final private static int COLUMNS = 10;
-
     private final char[][] BATTLEFIELD = new char[ROWS][COLUMNS];
-
-    /**
-     * This is the GameField getter
-     */
 
     char[][] getBATTLEFIELD() {
         return BATTLEFIELD;

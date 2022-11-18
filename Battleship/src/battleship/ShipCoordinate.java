@@ -4,17 +4,9 @@ class ShipCoordinate extends ShipPosition {
 
     private static String[] arrayOfCoordinates;
 
-    /**
-     * This is arrayOfCoordinates getter
-     */
-
     static String[] getArrayOfCoordinates() {
         return arrayOfCoordinates;
     }
-
-    /**
-     * This is arrayOfCoordinates setter
-     */
 
     static void processUserInputToArrayOfCoordinates(String userInput) {
         ShipCoordinate.arrayOfCoordinates = userInput.split("\\s+");

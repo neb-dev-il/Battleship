@@ -11,26 +11,14 @@ enum Ship {
     private final String NAME;
     private final int LENGTH;
 
-    /**
-     * This is the Ship constructor
-     */
-
     Ship(String name, int length) {
         this.NAME = name;
         this.LENGTH = length;
     }
 
-    /**
-     * This is the LENGTH getter
-     */
-
     int getLENGTH() {
         return LENGTH;
     }
-
-    /**
-     * This is the NAME getter
-     */
 
     String getNAME() {
         return NAME;
