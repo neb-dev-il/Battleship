@@ -31,7 +31,6 @@ class Game {
     }
 
     public static void main(String[] args) {
-        // Write your code here
         GameField battleField1 = new GameField();
         Player player1 = new Player(battleField1);
         Player.printOpeningSentence(1);
